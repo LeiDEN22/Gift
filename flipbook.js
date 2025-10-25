@@ -1,5 +1,13 @@
     const photos = [
-      'Cover.png','p1.jpg','p2.jpg','p3.jpg','p4.jpg','p5.jpg','p6.jpg', 'p7.jpg','p8.jpg'
+      'image/Cover.png',
+      'image/p1.jpg',
+      'image/p2.jpg',
+      'image/p3.jpg',
+      'image/p4.jpg',
+      'image/p5.jpg',
+      'image/p6.jpg',
+      'image/p7.jpg',
+      'image/p8.jpg'
     ];
     let current = 0;
 
