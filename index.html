@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>HBD!</title>
+  <link rel="stylesheet" href="style.css"/>
+</head>
+<body>
+  <h1>Selamat Ulang Tahun ke-19!</h1>
+  <div class="cake">
+    <div class="candles">
+      <div class="candle"><div class="flame"></div></div>
+      <div class="candle"><div class="flame"></div></div>
+    </div>
+    <div class="tier tier3"></div>
+    <div class="tier tier2"></div>
+    <div class="tier tier1"></div>
+  </div>
+  <p style="font-family: Verdana, Geneva, Tahoma, sans-serif;">Semoga IPK kamu selalu bagus</p>
+  <div class="buttons">
+    <a href="#" onclick="openFlipbook(event)">Buat Kamu</a>
+  </div>
+
+  <div class="flipbook" id="flipbook">
+    <img id="photo" src="Cover.png" alt="Kenangan" onerror="this.src='https://via.placeholder.com/800x600?text=Foto+Kenangan';" />
+    <div class="controls">
+      <button onclick="prevPhoto()">Prev</button>
+      <button onclick="nextPhoto()">Next</button>
+      <button onclick="closeFlipbook()">Tutup</button>
+    </div>
+  </div>
+  <script src="flipbook.js"></script>
+</body>
+</html>
